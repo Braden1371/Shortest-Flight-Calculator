@@ -1,5 +1,5 @@
 //-----------------------------------------------------------------------------------------
-// Braden Harris Wyatt Hooper
+// Braden Harris
 // CS-355
 // Final Project
 // 11/28/23
@@ -14,7 +14,6 @@ using namespace std;
 //Function Name: Edge()
 //Function Purpose: This a constructor for the edge class 
 //	it sets the destination and the weight.
-//Function Author: Wyatt Hooper
 Edge::Edge(string dV, int w) {
 	destinationAirportID = dV;
 	weight = w;
@@ -23,7 +22,6 @@ Edge::Edge(string dV, int w) {
 //Function Name: getDestID()
 //Function Purpose: Function returns the ID for the destination
 //	airport.
-//Dunction Author: Wyatt Hooper
 string Edge::getDestID() {
 	return destinationAirportID;
 }
@@ -31,7 +29,6 @@ string Edge::getDestID() {
 //Function Name: getWeight()
 //Function Purpose: Function returns the weight for the given
 //	flight.
-//Function Author: Wyatt Hooper
 int Edge::getWeight() {
 	return weight;
 }
@@ -39,7 +36,6 @@ int Edge::getWeight() {
 //Function Name: setEdge()
 //Function Purpose: Function updates the destination and weight 
 //	of a given edge.
-//Function Author: Wyatt Hooper
 void Edge::setEdge(string dV, int w) {
 	destinationAirportID = dV;
 	weight = w;
@@ -47,7 +43,6 @@ void Edge::setEdge(string dV, int w) {
 
 //Function Name: setWeight()
 //Function Purpose: The function updates the weight of a given edge
-//Function Author: Wyatt Hooper
 void Edge::setWeight(int w) {
 	weight = w;
 }
